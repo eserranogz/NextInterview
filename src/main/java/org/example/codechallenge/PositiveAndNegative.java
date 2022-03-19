@@ -1,12 +1,10 @@
 package org.example.codechallenge;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class PositiveAndNegative {
     public static void main(String[] args) {
-
+        // INPUT
         int[] arr = new int[]{5,-5,2,6,9,-6,-2,1,-1,1};
 
         Map<Integer, Integer> map = new HashMap<>();
@@ -25,6 +23,8 @@ public class PositiveAndNegative {
                 .toArray();
 
         System.out.println("array = " + Arrays.toString(array));
+        // OUTPUT
+        // array = [2, 5, 6]
 
     }
 }
